@@ -1,0 +1,20 @@
+name: 功能建议 / Feature request
+description: 分享你希望改进的功能或工作流程 / Suggest an improvement
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: 你希望完成什么任务？ / What are you trying to do?
+      placeholder: 描述你的使用场景和遇到的困难。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 你的建议 / Your suggestion
+      placeholder: 你希望如何改进？
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: 请勿填写密码、密钥、邀请链接、公开页令牌、客户隐私或其他不适合公开的信息。Issues are public; remove sensitive details.

@@ -1,0 +1,24 @@
+name: 问题报告 / Bug report
+description: 报告网站使用中遇到的问题 / Report a problem
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 页面与复现步骤 / Page and steps to reproduce
+      placeholder: 请提供页面名称以及从哪里开始、如何出现问题。
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 实际结果与期望结果 / Actual and expected result
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 浏览器与设备 / Browser and device
+      placeholder: 例如 Chrome、Windows 或 Safari、iPhone
+  - type: markdown
+    attributes:
+      value: 此反馈公开可见。请先删除密码、密钥、邀请链接、公开页令牌和客户隐私，截图也请脱敏。Issues are public.
